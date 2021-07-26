@@ -84,7 +84,7 @@ vae = VariationalAutoencoder(
 if mode == 'build':
     vae.save(RUN_FOLDER)
 else:
-    vae.load_weights(os.path.join(RUN_FOLDER, 'weights/Keiki 25dim.h5'))
+    vae.load_weights(os.path.join(RUN_FOLDER, 'weights/default.h5'))
 
 
 # In[ ]:
